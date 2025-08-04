@@ -3,17 +3,17 @@ package Basicprograms;
 import java.awt.GraphicsEnvironment;
 import java.util.Scanner;
 
-public class Person {
+public class Lab678 {
     String firstName;
     String lastName;
     public enum Gender {M, F}
     Gender gender;
     String phone;  
-    public Person() {
+    public Lab678() {
     }
 
 
-    public Person(String firstName, String lastName, Gender gender, String phone) {
+    public Lab678(String firstName, String lastName, Gender gender, String phone) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.gender = gender;
@@ -57,7 +57,7 @@ public class Person {
 
     // Main method
     public static void main(String[] args) {
-        Person person = new Person();
+        Lab678 person = new Lab678();
 
         person.setFirstName("Sreejith");
         person.setLastName("Mohan");

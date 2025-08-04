@@ -2,7 +2,7 @@ package Basicprograms;
 
 import java.util.Scanner;
 
-public class Pgm2 {
+public class Lab5 {
 //Write a program to accept a number from user as a command line argument and 
 //check  whether the given number is positive or negative number.
 	public static void main(String[] args) {

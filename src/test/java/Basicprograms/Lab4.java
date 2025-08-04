@@ -1,6 +1,6 @@
 package Basicprograms;
 
-public class Pgm1 {
+public class Lab4 {
 public static void main(String[] args) {
 	System.out.println("Personal Details");
 	System.out.println("-----------------");

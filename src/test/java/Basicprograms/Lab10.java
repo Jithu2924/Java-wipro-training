@@ -2,7 +2,7 @@ package Basicprograms;
 
 import java.util.Scanner;
 
-public class StringOperations {
+public class Lab10 {
 
     public static String Operation(String data, int choice) {
         switch (choice) {

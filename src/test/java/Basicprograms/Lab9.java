@@ -2,7 +2,7 @@ package Basicprograms;
 
 import java.util.Scanner;
 
-public class PositiveString {
+public class Lab9 {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter a word");
