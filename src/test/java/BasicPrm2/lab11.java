@@ -6,7 +6,7 @@ import java.time.chrono.ChronoLocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
-public class lab11 {
+public class Lab11 {
 public static void main(String[] args) {
 	
 	Scanner sc=new Scanner(System.in);
