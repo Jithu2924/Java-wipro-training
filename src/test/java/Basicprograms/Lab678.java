@@ -1,6 +1,5 @@
 package Basicprograms;
 
-import java.awt.GraphicsEnvironment;
 import java.util.Scanner;
 
 public class Lab678 {

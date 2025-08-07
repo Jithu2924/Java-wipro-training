@@ -1,4 +1,4 @@
-package inheritance_and_polymorphism;
+package lab2;
 
 
 public class Lab2 {

@@ -1,13 +1,26 @@
-package inheritance_and_polymorphism;
+package lab3;
 
-public class Lab1 {
-	public static class Person{
+
+public class Lab2{
+public class InvalidAgeException extends Exception {
+    public InvalidAgeException(String message) {
+        super(message);
+    }}
+
+	
+	
+	public class Person{
 		private String name;
 		private float age;
-		public Person(String name,float age ) {
+		public Person(String name,float age )throws InvalidAgeException {
+			if(age<18.0) {
+				throw new InvalidAgeException("The should be minimum 18");
+			}
 			this.name=name;
 			this.age=age;
 		}
+		
+		
 
 		public String toString() {
 			return "Person={name :"+name+" age :"+age+"}";
@@ -54,21 +67,20 @@ public class Lab1 {
 		
 		
 	}
-public static void main(String[] args) {
-	Person smith=new Lab1.Person("Smith", 23);
-	Person kathy=new Lab1.Person("Kathy", 23);
-	Account smith1=new Lab1.Account(2000, smith);
-	Account kathy1=new Lab1.Account(3000, kathy);
-	
-	smith1.Deposit(2000);
-	
-	kathy1.WithDraw(2000);
-	
-	
-	System.out.println(smith1);
-	System.out.println(kathy1);
-	
-	
-	
-}
+	public static void main(String[] args) {
+	    try {
+	        Person kathy = new Lab2().new Person("Kathy", 23);
+	        Account kathy1 = new Lab2.Account(3000, kathy);
+
+	        kathy1.WithDraw(2000);
+	        System.out.println(kathy1);
+	        Person smith = new Lab2().new Person("Smith", 18); 
+	        Account smithAcc = new Lab2.Account(2000, smith);
+	        System.out.println(smithAcc);
+	        
+	    } catch (InvalidAgeException e) {
+	        System.out.println("Exception: " + e.getMessage());
+	    }
+	}
+
 }
