@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite1" parallel="tests" thread-count="5">
+  <test thread-count="5" name="labchrome">
+    <classes>
+    <parameter name="browser" value="chrome">
+      <class name="selenium_ide.Lab23Test"/>
+     <class name="selenium_ide.Lab4Test"/>
+    </parameter>
+    </classes>
+  </test> <!-- lab23_Test -->
+  <test name="labedge">
+  <classes>
+    <parameter name="browser" value="ie">
+      <class name="selenium_ide.Lab23Test"/>
+   <class name="selenium_ide.Lab4Test"/>
+    </parameter>
+  </classes>
+  </test>
+      
+</suite> <!-- Suite1 -->

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-19T11:30:12 IST" name="Suite1" finished-at="2025-08-19T11:30:35 IST" duration-ms="22217">
+    <groups>
+    </groups>
+    <test started-at="2025-08-19T11:30:12 IST" name="labedge" finished-at="2025-08-19T11:30:34 IST" duration-ms="21688">
+      <class name="selenium_ide.Lab23Test">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:selenium_ide.Lab23Test@1e178745]" started-at="2025-08-19T11:30:12 IST" name="setUp" finished-at="2025-08-19T11:30:17 IST" duration-ms="4549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="lab23()[pri:0, instance:selenium_ide.Lab23Test@1e178745]" started-at="2025-08-19T11:30:17 IST" name="lab23" finished-at="2025-08-19T11:30:23 IST" duration-ms="6110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lab23 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium_ide.Lab23Test@1e178745]" started-at="2025-08-19T11:30:23 IST" name="tearDown" finished-at="2025-08-19T11:30:23 IST" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- selenium_ide.Lab23Test -->
+      <class name="selenium_ide.Lab4Test">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:selenium_ide.Lab4Test@192c3f1e]" started-at="2025-08-19T11:30:23 IST" name="setUp" finished-at="2025-08-19T11:30:26 IST" duration-ms="2400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="lab4()[pri:0, instance:selenium_ide.Lab4Test@192c3f1e]" started-at="2025-08-19T11:30:26 IST" name="lab4" finished-at="2025-08-19T11:30:34 IST" duration-ms="7816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lab4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium_ide.Lab4Test@192c3f1e]" started-at="2025-08-19T11:30:34 IST" name="tearDown" finished-at="2025-08-19T11:30:34 IST" duration-ms="398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- selenium_ide.Lab4Test -->
+    </test> <!-- labedge -->
+    <test started-at="2025-08-19T11:30:12 IST" name="labchrome" finished-at="2025-08-19T11:30:35 IST" duration-ms="22217">
+      <class name="selenium_ide.Lab23Test">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:selenium_ide.Lab23Test@7e6f74c]" started-at="2025-08-19T11:30:12 IST" name="setUp" finished-at="2025-08-19T11:30:17 IST" duration-ms="4317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="lab23()[pri:0, instance:selenium_ide.Lab23Test@7e6f74c]" started-at="2025-08-19T11:30:17 IST" name="lab23" finished-at="2025-08-19T11:30:22 IST" duration-ms="5642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lab23 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium_ide.Lab23Test@7e6f74c]" started-at="2025-08-19T11:30:22 IST" name="tearDown" finished-at="2025-08-19T11:30:23 IST" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- selenium_ide.Lab23Test -->
+      <class name="selenium_ide.Lab4Test">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:selenium_ide.Lab4Test@710f4dc7]" started-at="2025-08-19T11:30:23 IST" name="setUp" finished-at="2025-08-19T11:30:24 IST" duration-ms="1622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="lab4()[pri:0, instance:selenium_ide.Lab4Test@710f4dc7]" started-at="2025-08-19T11:30:24 IST" name="lab4" finished-at="2025-08-19T11:30:34 IST" duration-ms="9805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lab4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium_ide.Lab4Test@710f4dc7]" started-at="2025-08-19T11:30:34 IST" name="tearDown" finished-at="2025-08-19T11:30:35 IST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- selenium_ide.Lab4Test -->
+    </test> <!-- labchrome -->
+  </suite> <!-- Suite1 -->
+</testng-results>
