@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite_lab11">
+  <test thread-count="5" name="Test_lab11_lab23">
+    <classes>
+      <class name="lab11_selenium.Lab23Test"/>
+      <class name="lab11_selenium.Lab4Test"/>
+    </classes>
+  </test> <!-- Test_lab11_lab23 -->
+</suite> <!-- Suite_lab11 -->

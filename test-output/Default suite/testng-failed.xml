@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium_ide.Lab23Test">
+      <class name="webdriver.lab_12">
         <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="lab23"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- selenium_ide.Lab23Test -->
+      </class> <!-- webdriver.lab_12 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

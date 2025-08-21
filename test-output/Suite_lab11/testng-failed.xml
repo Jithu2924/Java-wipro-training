@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite_lab11]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test_lab11_lab23(failed)">
+    <classes>
+      <class name="lab11_selenium.Lab4Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="lab4"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- lab11_selenium.Lab4Test -->
+    </classes>
+  </test> <!-- Test_lab11_lab23(failed) -->
+</suite> <!-- Failed suite [Suite_lab11] -->
