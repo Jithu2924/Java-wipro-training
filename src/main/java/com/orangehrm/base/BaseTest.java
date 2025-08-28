@@ -29,7 +29,7 @@ public class BaseTest {
 		  System.out.println("Before method");
 		  WebDriverManager.chromedriver().setup();
 			driver=new ChromeDriver();
-			driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+//			driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 	  }
 	  @AfterMethod
 	  public void teardown() {
@@ -42,6 +42,10 @@ public class BaseTest {
 		  extent.flush();
 		  
 	  }
+	  public void navigateurl(String url)
+		{
+			 driver.get(url);
+		}
 	  
 
 
