@@ -3,19 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test_ng_tasks.selenium_lab13">
+      <class name="questions.Q9">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="beforeClass"/>
-          <include name="f" invocation-numbers="0 1"/>
-          <include name="beforeTest"/>
-          <include name="afterMethod"/>
-          <include name="afterSuite"/>
-          <include name="afterClass"/>
-          <include name="beforeSuite"/>
-          <include name="afterTest"/>
+          <include name="f"/>
+          <include name="AfterSuite"/>
+          <include name="BeforeSuite"/>
         </methods>
-      </class> <!-- test_ng_tasks.selenium_lab13 -->
+      </class> <!-- questions.Q9 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

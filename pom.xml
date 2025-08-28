@@ -34,7 +34,6 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.11.0</version>
-            <scope>test</scope>
         </dependency>
 
         <!-- Logging -->
@@ -81,11 +80,6 @@
             <artifactId>extentreports</artifactId>
             <version>5.1.2</version>
         </dependency>
-        
-
-
-
-
 <!-- Update commons-io -->
 <dependency>
     <groupId>commons-io</groupId>
@@ -98,7 +92,46 @@
     <artifactId>opencsv</artifactId>
     <version>5.9</version>
 </dependency>
-
-
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>7.27.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-core</artifactId>
+    <version>7.27.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>7.27.2</version>
+    <scope>test</scope>
+</dependency>
     </dependencies>
+    
+    
+<build>
+<plugins>
+<!-- Surefire Plugin -->
+<plugin>
+<groupId>org.apache.maven.plugins</groupId>
+<artifactId>maven-surefire-plugin</artifactId>
+<version>3.2.5</version> <!-- use latest stable -->
+<configuration>
+<!-- For TestNG -->
+<suiteXmlFiles>
+<suiteXmlFile>testng.xml</suiteXmlFile>
+</suiteXmlFiles>
+<!-- For JUnit, remove the above and it will run automatically -->
+</configuration>
+</plugin>
+</plugins>
+</build>
+
+
+
 </project>
