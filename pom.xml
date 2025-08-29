@@ -124,7 +124,7 @@
 <configuration>
 <!-- For TestNG -->
 <suiteXmlFiles>
-<suiteXmlFile>testng.xml</suiteXmlFile>
+<suiteXmlFile>testng1.xml</suiteXmlFile>
 </suiteXmlFiles>
 <!-- For JUnit, remove the above and it will run automatically -->
 </configuration>

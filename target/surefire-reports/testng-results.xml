@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="9" total="10" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-26T18:09:45 IST" name="Suite_jenkin" finished-at="2025-08-26T18:09:57 IST" duration-ms="12256">
+  <suite started-at="2025-08-28T17:15:01 IST" name="Suite" finished-at="2025-08-28T17:15:10 IST" duration-ms="9766">
     <groups>
     </groups>
-    <test started-at="2025-08-26T18:09:45 IST" name="Test_jenkin" finished-at="2025-08-26T18:09:57 IST" duration-ms="12256">
-      <class name="jenkins_test.Jenkins_run">
-        <test-method signature="f()[pri:0, instance:jenkins_test.Jenkins_run@692f203f]" started-at="2025-08-26T18:09:45 IST" name="f" finished-at="2025-08-26T18:09:57 IST" duration-ms="12173" status="PASS">
+    <test started-at="2025-08-28T17:15:01 IST" name="Test" finished-at="2025-08-28T17:15:10 IST" duration-ms="9766">
+      <class name="com.orangehrm.tests.LoginOrangeHRM">
+        <test-method is-config="true" signature="setupreport()[pri:0, instance:com.orangehrm.tests.LoginOrangeHRM@15de0b3c]" started-at="2025-08-28T17:15:00 IST" name="setupreport" finished-at="2025-08-28T17:15:01 IST" duration-ms="601" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- jenkins_test.Jenkins_run -->
-    </test> <!-- Test_jenkin -->
-  </suite> <!-- Suite_jenkin -->
+        </test-method> <!-- setupreport -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orangehrm.tests.LoginOrangeHRM@15de0b3c]" started-at="2025-08-28T17:15:01 IST" name="setup" finished-at="2025-08-28T17:15:07 IST" duration-ms="6161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="q9()[pri:0, instance:com.orangehrm.tests.LoginOrangeHRM@15de0b3c]" started-at="2025-08-28T17:15:07 IST" name="q9" finished-at="2025-08-28T17:15:10 IST" duration-ms="3103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- q9 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.orangehrm.tests.LoginOrangeHRM@15de0b3c]" started-at="2025-08-28T17:15:10 IST" name="teardown" finished-at="2025-08-28T17:15:10 IST" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="flushreport()[pri:0, instance:com.orangehrm.tests.LoginOrangeHRM@15de0b3c]" started-at="2025-08-28T17:15:10 IST" name="flushreport" finished-at="2025-08-28T17:15:11 IST" duration-ms="637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushreport -->
+      </class> <!-- com.orangehrm.tests.LoginOrangeHRM -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
